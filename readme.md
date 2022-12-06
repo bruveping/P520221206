@@ -6,3 +6,6 @@ https://bruveping.github.io/P520221206/animaciondeCuadrados/
 https://bruveping.github.io/P520221206/animaciondeCuadrados022022/
 
 https://bruveping.github.io/P520221206/animaciondeCuadrados032022/
+
+
+![imagen de nave](https://github.com/bruveping/P520221206/blob/main/navesEspacial005.jpg)
