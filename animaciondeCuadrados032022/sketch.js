@@ -1,0 +1,47 @@
+let Uncuadrado, laCantidad, uncolor, elFondo;
+
+function setup() {
+  createCanvas(window.innerWidth,window.innerHeight);
+  //createCanvas(400,400);
+  laCantidad = 40;
+  Uncuadrado = [laCantidad];
+uncolor = [laCantidad];
+elFondo=color(random(255),random(255),random(255));
+  for(let i = 0; i<laCantidad; i++){
+    uncolor[laCantidad]=color(random(255),random(255),random(255));
+      Uncuadrado[i] = new elCuadrado(uncolor[laCantidad]);
+  }
+  noStroke();
+
+}
+
+
+function draw() {
+  background(elFondo);
+
+  for(let i = 0; i<laCantidad; i++){
+    Uncuadrado[i].muestra();
+  }
+
+}
+
+function elCuadrado(unColor) {
+  this.unColor = unColor;
+  this.veloY = random(1,9);
+  this.mueveX = 0;
+  this.posX = random(width);
+  this.posY = random(-height,-100);
+  this.tamanoX = random(20,50);
+  this.tamanoY= random(40,120);
+
+  this.muestra = ()=> {
+    fill(this.unColor);
+      rect(this.posX+this.mueveX,this.posY,this.tamanoX,this.tamanoY);
+    this.posY+=this.veloY;
+    this.mueveX = this.mueveX +(random(-2,2));
+    if(this.posY>height){
+      this.posY = random(-height,-100);
+    }
+  }
+
+}
