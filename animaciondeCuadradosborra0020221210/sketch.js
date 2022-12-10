@@ -55,7 +55,7 @@ function elCuadrado(unColor ) {
 
 function mousePressed() {
   for(let i = 0; i<laCantidad; i++){
-  if(mouseX>Uncuadrado[i].posX&&mouseX<Uncuadrado[i].posX+Uncuadrado[i].tamanoY&&mouseY>Uncuadrado[i].posY&&mouseY<Uncuadrado[i].posY+Uncuadrado[i].tamanoY){
+  if(mouseX>Uncuadrado[i].posX&&mouseX<Uncuadrado[i].posX+Uncuadrado[i].tamanoX&&mouseY>Uncuadrado[i].posY&&mouseY<Uncuadrado[i].posY+Uncuadrado[i].tamanoY){
 otraVerdad[i]=!otraVerdad[i];
 }else{
         otraVerdad[i]=false;
