@@ -1,3 +1,4 @@
+
 let playing = false;
 let fingers;
 let button;
@@ -5,7 +6,7 @@ let button;
 function setup() {
   noCanvas();
   // especificar múltiples formatos para distintos navegadores
-  fingers = createVideo(['2023-05-30 18-10-02.mp4']);
+  fingers = createVideo(['https://media.giphy.com/media/AS9LIFttYzkc0/giphy.mp4']);
   button = createButton('play');
   button.mousePressed(toggleVid); // adjuntar un listener al botón
 }
