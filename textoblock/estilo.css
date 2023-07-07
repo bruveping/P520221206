@@ -1,0 +1,24 @@
+textarea{
+    width: 1000px;
+    height: 800px;
+    background-color: aqua;
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3em;
+    margin: auto;
+}
+
+.tieneTexto{
+align-items: center;
+display: flex;
+}
+
+.contieneeltitulo{
+    width: 1000px;
+    color: blueviolet;
+    background-color: rgb(192, 161, 187);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    margin: auto;
+    justify-content: center; 
+}
