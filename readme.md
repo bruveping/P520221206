@@ -14,6 +14,11 @@ https://bruveping.github.io/P520221206/EvaCambicolor20230325B_2023_03_26_01_57_2
 https://bruveping.github.io/P520221206/verVideo/
 
 https://bruveping.github.io/P520221206/textoblock/
+##basado en Guest Tutorial #4: Matrix Digital Rain in p5.js with Emily Xie
+link al tutorial:
+https://youtu.be/S1TQCi9axzg?si=TH99iu6_yOKKB_A7
+link a la página:
+https://bruveping.github.io/P520221206/homenajeMatrix20230827/
 
 Para ver un desarrollo textual sobre este repositorio:
 ![a notas](notas.md)
