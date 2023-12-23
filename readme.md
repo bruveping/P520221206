@@ -25,6 +25,8 @@ link a la página:
 
 https://bruveping.github.io/P520221206/homenajeMatrix20230827/
 
+https://bruveping.github.io/P520221206/Juego_de_Cuadrados_Corregido2023_12_21_2023_12_23_23_54_19/
+
 Para ver un desarrollo textual sobre este repositorio:
 ![a notas](notas.md)
 ![imagen de nave](https://github.com/bruveping/P520221206/blob/main/navesEspacial005.jpg)
