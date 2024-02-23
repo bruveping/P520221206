@@ -27,6 +27,8 @@ https://bruveping.github.io/P520221206/homenajeMatrix20230827/
 
 https://bruveping.github.io/P520221206/Juego_de_Cuadrados_Corregido2023_12_21_2023_12_23_23_54_19/
 
+https://bruveping.github.io/P520221206/prueba_acelerometro_2024_02_23_22_50_21/
+
 Para ver un desarrollo textual sobre este repositorio:
 ![a notas](notas.md)
 ![imagen de nave](https://github.com/bruveping/P520221206/blob/main/navesEspacial005.jpg)
