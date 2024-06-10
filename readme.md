@@ -29,6 +29,8 @@ https://bruveping.github.io/P520221206/Juego_de_Cuadrados_Corregido2023_12_21_20
 
 https://bruveping.github.io/P520221206/prueba_acelerometro_2024_02_23_22_50_21/
 
+https://bruveping.github.io/P520221206/JuegoLaberintoP520240610002/
+
 Para ver un desarrollo textual sobre este repositorio:
 ![a notas](notas.md)
 ![imagen de nave](https://github.com/bruveping/P520221206/blob/main/navesEspacial005.jpg)
