@@ -29,7 +29,9 @@ https://bruveping.github.io/P520221206/Juego_de_Cuadrados_Corregido2023_12_21_20
 
 https://bruveping.github.io/P520221206/prueba_acelerometro_2024_02_23_22_50_21/
 
-https://bruveping.github.io/P520221206/JuegoLaberintoP520240610002/
+juego laberinto con pinocho, para circulo cambiar la url a ...03
+
+https://bruveping.github.io/P520221206/JuegoLaberintoP520240610003/
 
 Para ver un desarrollo textual sobre este repositorio:
 ![a notas](notas.md)
