@@ -9,7 +9,7 @@ let player;
 let gameWon = false;
 
 function setup() {
-  createCanvas(1000, 900);
+  createCanvas(window.innerWidth, 900);
   cols = floor(width / w);
   rows = floor(height / w);
   grid = new Array(cols);
@@ -82,6 +82,7 @@ class Cell {
     let x = this.i * w;
     let y = this.j * w;
     stroke(255);
+    strokeWeight(6)
     if (this.walls[0]) line(x, y, x + w, y);        // Pared superior
     if (this.walls[1]) line(x + w, y, x + w, y + w);  // Pared derecha
     if (this.walls[2]) line(x + w, y + w, x, y + w);  // Pared inferior
