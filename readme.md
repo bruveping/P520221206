@@ -33,7 +33,7 @@ juego laberinto con pinocho, para circulo cambiar la url a ...03
 
 https://bruveping.github.io/P520221206/JuegoLaberintoP520240610003/
 
-https://bruveping.github.io/PanatallaCerosYUnosVerdes_2024_06_14_14_01_46/
+https://bruveping.github.io/P520221206/PanatallaCerosYUnosVerdes_2024_06_14_14_01_46/
 
 Para ver un desarrollo textual sobre este repositorio:
 ![a notas](notas.md)
