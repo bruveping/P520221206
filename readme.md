@@ -35,6 +35,9 @@ https://bruveping.github.io/P520221206/JuegoLaberintoP520240610003/
 
 https://bruveping.github.io/P520221206/PanatallaCerosYUnosVerdes_2024_06_14_14_01_46/
 
+https://bruveping.github.io/P520221206/Piedra_Papel_y_Tijera_2024_12_13/
+
+
 Para ver un desarrollo textual sobre este repositorio:
 ![a notas](notas.md)
 ![imagen de nave](https://github.com/bruveping/P520221206/blob/main/navesEspacial005.jpg)
