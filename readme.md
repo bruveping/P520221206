@@ -37,6 +37,9 @@ https://bruveping.github.io/P520221206/PanatallaCerosYUnosVerdes_2024_06_14_14_0
 
 https://bruveping.github.io/P520221206/Piedra_Papel_y_Tijera_2024_12_13/
 
+https://bruveping.github.io/P520221206/Piedra_Papel_y_Tijera_2024_12_13_B/
+
+
 
 Para ver un desarrollo textual sobre este repositorio:
 ![a notas](notas.md)
