@@ -11,13 +11,25 @@ let elAncho,
   resultado,
   tamanoTexto,
   usuarioTiro,
+  altoCuad,
+  elAlto,
   elRandom;
+  let imagen = [];
+  function preload() {
+    for (let i = 0; i< 3; i++){
+      imagen[i]=loadImage("/data/insumoPPT"+i+".png");
+    }
+  }
 function setup() {
   createCanvas(windowWidth, windowHeight);
+
+
+  altoCuad=0;
   elAncho = width / 10;
+  elAlto = height/20;
   cantidadBotones = 3;
   elEspacio = width / (width / elAncho / 3.65);
-  tamanoTexto = width / 20;
+  tamanoTexto = elAlto;
   textSize(tamanoTexto);
   piedra = false;
   papel = false;
@@ -32,6 +44,7 @@ function setup() {
 
 function draw() {
   background(220);
+  altoCuad = elAlto*3;
   for (let i = 0; i < cantidadBotones; i++) {
     elString = "";
     let elColor;
@@ -46,9 +59,10 @@ function draw() {
       elString = "tijera";
     }
     fill(0);
-    text(elString, elEspacio * i + elEspacio / 4, elEspacio / 3);
+    text(elString, elEspacio * i + elEspacio / 4, elAlto*2);
     fill(elColor);
-    rect(elEspacio * i + elEspacio / 4, elEspacio / 2, elAncho, elAncho);
+    rect(elEspacio * i + elEspacio / 4, altoCuad, elAncho, elAncho);
+    image(imagen[i],elEspacio * i + elEspacio / 4, altoCuad, elAncho, elAncho);
   }
   let usuElige = "el usuario eligió";
   let maquinaElige = "la máquina eligió";
@@ -97,9 +111,9 @@ function draw() {
       (numeroUsu == 1 && elRandom == 2) ||
       (numeroUsu == 2 && elRandom == 0)
     ) {
-      resultado = "gano la maquina";
+      resultado = "ganó la máquina";
     } else {
-      resultado = "gano el usuario";
+      resultado = "ganó el usuario";
     }
   }
 
@@ -120,8 +134,8 @@ function mouseReleased() {
   if (
     mouseX > elEspacio * 0 + elEspacio / 4 &&
     mouseX < elEspacio * 0 + elEspacio / 4 + elAncho &&
-    mouseY > elEspacio / 2 &&
-    mouseY < elEspacio / 2 + elAncho
+    mouseY > altoCuad &&
+    mouseY < altoCuad + elAncho
   ) {
 
     piedra = true;
@@ -132,8 +146,8 @@ function mouseReleased() {
   } else if (
     mouseX > elEspacio * 1 + elEspacio / 4 &&
     mouseX < elEspacio * 1 + elEspacio / 4 + elAncho &&
-    mouseY > elEspacio / 2 &&
-    mouseY < elEspacio / 2 + elAncho
+    mouseY > altoCuad &&
+    mouseY < altoCuad + elAncho
   ) {
 
     piedra = false;
@@ -144,8 +158,8 @@ function mouseReleased() {
   } else if (
     mouseX > elEspacio * 2 + elEspacio / 4 &&
     mouseX < elEspacio * 2 + elEspacio / 4 + elAncho &&
-    mouseY > elEspacio / 2 &&
-    mouseY < elEspacio / 2 + elAncho
+    mouseY > altoCuad &&
+    mouseY < altoCuad + elAncho
   ) {
 
     piedra = false;
