@@ -35,8 +35,6 @@ https://bruveping.github.io/P520221206/JuegoLaberintoP520240610003/
 
 https://bruveping.github.io/P520221206/PanatallaCerosYUnosVerdes_2024_06_14_14_01_46/
 
-https://bruveping.github.io/P520221206/Piedra_Papel_y_Tijera_2024_12_13/
-
 https://bruveping.github.io/P520221206/Piedra_Papel_y_Tijera_2024_12_13_B/
 
 
