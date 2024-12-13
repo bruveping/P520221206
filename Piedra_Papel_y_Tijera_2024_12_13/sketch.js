@@ -17,7 +17,7 @@ let elAncho,
   let imagen = [];
   function preload() {
     for (let i = 0; i< 3; i++){
-      imagen[i]=loadImage("data/insumoPPT"+i+".png");
+      imagen[i]=loadImage("insumoPPT"+i+".png");
     }
   }
 function setup() {
