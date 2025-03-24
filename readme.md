@@ -38,6 +38,10 @@ https://bruveping.github.io/P520221206/PanatallaCerosYUnosVerdes_2024_06_14_14_0
 https://bruveping.github.io/P520221206/Piedra_Papel_y_Tijera_2024_12_13_B/
 
 
+## Juego de naves clásico con cuadrados
+https://bruveping.github.io/P520221206/juegodenavesconcuadrados
+
+
 
 Para ver un desarrollo textual sobre este repositorio:
 ![a notas](notas.md)
