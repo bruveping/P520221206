@@ -15,7 +15,7 @@ https://bruveping.github.io/P520221206/verVideo/
 
 https://bruveping.github.io/P520221206/textoblock/
 
-##basado en Guest Tutorial #4: Matrix Digital Rain in p5.js with Emily Xie
+## basado en Guest Tutorial #4: Matrix Digital Rain in p5.js with Emily Xie
 
 link al tutorial:
 
@@ -40,6 +40,9 @@ https://bruveping.github.io/P520221206/Piedra_Papel_y_Tijera_2024_12_13_B/
 
 ## Juego de naves clásico con cuadrados
 https://bruveping.github.io/P520221206/juegodenavesconcuadrados
+## Juego de naves clásico con Frutas
+https://bruveping.github.io/P520221206/juegodevideoNaves06
+
 
 
 
